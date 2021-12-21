@@ -5,7 +5,7 @@
 APP_RES = (400, 240)
 app_scale = 4
 # Application caption (visible in window title or OS apps manager)
-APP_CAPTION = 'CAVES OF NO RETURN, v1.2b'
+APP_CAPTION = 'CAVES OF NO RETURN, v1.3b'
 # Frames per second (changing this affects app's run speed)
 FPS = 60
 
