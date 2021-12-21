@@ -1,0 +1,93 @@
+MAZE CODES (0-255):
+
+Tiles:
+0-15        floors
+    0           default floor
+
+64-95       walls
+    64          default wall
+    88          default boulder
+
+96-103      spikes
+    96          default spikes
+
+104-111     traps
+    104         default trap
+
+112-119     stairs
+    112         default UPstairs
+    116         default DOWNstairs
+
+120-127     doors
+    120         default common door
+    124         default metal door
+
+128-135     doorways
+    128         default doorway
+
+136-143     pit
+    136         default pit
+
+Objects:
+144-151     treasures
+    144         treasure chest
+
+152-159     potions
+    152         red potion
+    153         yellow potion
+    154         blue potion
+
+160-191     spells
+    160         disintegrate
+    161         heal
+    162         invisibility
+    163         barrier
+    164         dispel
+    165         petrify
+    166         turn undead
+    167         warp
+    168         time stop
+    169         kill
+
+192-199     keys
+    192         default key
+
+200         HP UP
+201         POW UP
+202         MAG UP
+203         silver blade
+204         MAGIC FLASK
+205         gold
+
+Monsters:
+224         Rat
+225         Spider
+226         Snake
+227         Muss
+228         Goblin
+229         Skeleton
+230         Orcus
+231         Ghost
+232         Lich
+233         Daemon
+234         Double
+
+
+FLAG CODES (0-255):
+0       empty space
+1       monster
+2       player
+
+8       wall
+9       fake wall
+10      magic wall
+11      spikes
+12      trap
+13      pit
+14      boulder
+
+16      door
+18      metal door
+
+24      upstairs (player start)
+25      downstairs (exit)

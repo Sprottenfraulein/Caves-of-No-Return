@@ -1,0 +1,17 @@
+Game maps cav file format description.
+
+BYTES:                      MEANING:
+1                           width
+1                           height
+n1                          maze body (n1 = maze width*height)
+n1                          maze flags
+1                           maze title length
+n2                          maze title (n2 = maze length)
+1                           number of memos
+1                           memo x
+1                           memo y
+1                           memo length
+n3                          memo text (n3 = memo length)
+1                           color byte red
+1                           color byte green
+1                           color byte blue

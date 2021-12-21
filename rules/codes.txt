@@ -1,0 +1,56 @@
+MAZE CODES (0-255):
+
+Tiles:
+0-15        floor
+64-95       walls
+96-103      spikes
+104-111     traps
+112-119     stairs
+120-127     doors
+128-135     passages
+136-143     holes
+
+Objects:
+144-151     treasures
+152-159     potions
+160-191     spells
+192-199     keys
+200         HP UP
+201         POW UP
+202         MAG UP
+203         silver blade
+204         MAGIC FLASK
+205         note
+
+Monsters:
+224         Rat
+225         Spider
+226         Snake
+227         Muss
+228         Goblin
+229         Skeleton
+230         Orcus
+231         Ghost
+232         Lich
+233         Daemon
+234         Double
+
+
+FLAG CODES (0-255):
+0       empty space
+1       monster
+2       player
+
+8       wall
+9       fake wall
+10      magic wall
+11      spikes
+12      trap
+13      pit
+14      boulder
+
+16      door
+18      metal door
+
+24      upstairs (player start)
+25      downstairs (exit)
