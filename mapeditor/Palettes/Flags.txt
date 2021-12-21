@@ -1,0 +1,15 @@
+Decription;Legend;ByteCode;
+space; ;0;
+wall;W;8;
+fake_wall;FW;9;
+magic_wall;MW;10;
+spikes;SP;11;
+trap;TR;12;
+pit;P;13;
+trap_poison;TP;14;
+door;DR;16;
+metal_door;MD;18;
+start;S;24;
+exit;E;25;
+to_map;M;32;
+to_loc;L;33;

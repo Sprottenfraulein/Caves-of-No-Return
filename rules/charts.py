@@ -24,7 +24,7 @@ char_mag = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 score_rewards = (100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1000)
 flask_reward = 1000
 # Starting level of the game.
-level = 4	# 0 is the first level, 1 is the second, etc.
+level = 0	# 0 is the first level, 1 is the second, etc.
 # Spells by cave level.
 random_spells = True
 spells = (

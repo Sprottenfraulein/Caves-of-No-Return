@@ -1,0 +1,17 @@
+Decription;Legend;ByteCode;Color;AutoFlagByte;
+no_tile; ;0;$000000;0;
+floor_stone;FS;8;$505050;0;
+floor_plate;FP;9;$505000;0;
+floor_grass;FG;24;$008010;0;
+wall_stone;WS;64;$999999;8;
+wall_tree;WT;80;$007000;8;
+wall_plate;WP;65;$709090;8;
+hazard_spikes;HS;96;$FFFFFF;11;
+trap_invis;TI;104;$FFFFFF;0;
+stairs_up;SU;112;$009000;0;
+stairs_down;SD;116;$000090;0;
+door_wood;DW;120;$056060;0;
+door_iron;DI;124;$995050;0;
+port_stone;PS;128;$757575;0;
+pit_hole;ph;136;$252525;0;
+pit_stone;ps;152;$404040;0;
