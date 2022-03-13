@@ -1537,9 +1537,9 @@ class Cave:
         obj_byte = self.maze_objects[self.xy_to_pos(self.maze_size, (self.pc.x, self.pc.y))]
         if obj_byte == mazes.objects['memo_page']:
             n_code = str(self.pc.x).zfill(3) + str(self.pc.y).zfill(3)
-            memo_text = self.maze_memos[n_code][0]
-            memo_pref = self.maze_memos[n_code][1]
             try:
+                memo_text = self.maze_memos[n_code][0]
+                memo_pref = self.maze_memos[n_code][1]
                 self.log(memo_text, memo_pref)
             except KeyError:
                 self.log(texts.game_text['cave_unreadable'], self.res_man.colors['fnt_normal'])
